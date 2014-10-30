@@ -31,5 +31,8 @@ EXPOSE 9300
 # Kibana
 EXPOSE 9292
 
+# SYSLOG
+EXPOSE 514
+
 # Start logstash
 ENTRYPOINT ["/app/bin/boot"]
